@@ -17,7 +17,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
-    "mongose": "^0.0.2-security",
+    "mongoose": "^8.9.2",
     "nodemailer": "^6.9.16",
     "otp-generator": "^4.0.1"
   },
