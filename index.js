@@ -3,7 +3,6 @@ import dbConnect from "./config/db.js"
 
 const app = express();
 const result=dbConnect();
-console.log("This is result",result);
 
 app.get('/', (req, res) => {
   const name = process.env.NAME || 'World';
