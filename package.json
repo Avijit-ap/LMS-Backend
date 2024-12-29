@@ -1,6 +1,6 @@
 {
   "name": "node-express-api",
-  "description": "Simple api sample in Node",
+  "description": "LMS Backend",
   "version": "1.0.0",
   "private": true,
   "main": "index.js",
@@ -9,7 +9,7 @@
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "author": "Google LLC",
+  "author": "Avijit Pal",
   "license": "Apache-2.0",
   "dependencies": {
     "bcrypt": "^5.1.1",
