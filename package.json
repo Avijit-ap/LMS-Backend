@@ -12,7 +12,14 @@
   "author": "Google LLC",
   "license": "Apache-2.0",
   "dependencies": {
-    "express": "^4.21.1"
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongose": "^0.0.2-security",
+    "nodemailer": "^6.9.16",
+    "otp-generator": "^4.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
