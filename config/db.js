@@ -5,7 +5,10 @@ dotenv.config()
 
 async function dbConnect(){
     try {
-        const client= await mongoose.connect(process.env.MONGODB_URI)
+        const client= await mongoose.connect(process.env.MONGODB_URI,{
+            useNewUrlParser:true,
+            useUnifiedTopology:true
+        })
         console.log("DB CONNECT DONE")
         return client
 
