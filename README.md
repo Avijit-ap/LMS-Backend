@@ -1,6 +1,8 @@
-# Node + Express Service Starter
+# LMS-Backend 🏗️
 
-This is a simple API sample in Node.js with express.js based on [Google Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-nodejs-service).
+This is the backend for an LMS (Learning Management System) built using Node.js and Express.js.  
+
+**Note:** This project is currently under development 🚧.
 
 ## Getting Started
 
