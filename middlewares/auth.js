@@ -14,7 +14,7 @@ exports.auth =async(req, res, next)=>{
         }
         try {
             const decode=await jwt.verify(token,process.env.JWT_SECRET)
-            req.user=await User.findById(decode.id)
+            req.user=decode
             next()
         } catch (error) {
             return res.status(401).json({

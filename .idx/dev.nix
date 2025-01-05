@@ -7,6 +7,9 @@
   packages = [
     pkgs.nodejs_20
   ];
+  services = {
+    docker.enable = true;
+  };
   # Sets environment variables in the workspace
   env = {};
   idx = {
